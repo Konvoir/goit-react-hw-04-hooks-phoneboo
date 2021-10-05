@@ -1,0 +1,32 @@
+.list {
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  margin-top: 5px;
+}
+
+.text {
+  display: inline-block;
+  width: 120px;
+  font-size: 15px;
+}
+
+.button {
+  width: 100px;
+  padding: 5px;
+  margin-left: 5%;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: box-shadow 500ms linear;
+}
+
+.button:hover,
+.button:focus {
+  background-color: coral;
+  color: #fff;
+}
